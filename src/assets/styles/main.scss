@@ -1,0 +1,53 @@
+// @import 'normalize.css';
+@import './variables.scss';
+@import './fonts.scss';
+@import './buttons.scss';
+@import './text.scss';
+
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: $base-font;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+main {
+  height: calc(100% - 82px);
+}
+
+.container {
+  width: 100%;
+  padding: 0 24px;
+}
